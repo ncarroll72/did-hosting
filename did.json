@@ -1,0 +1,17 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1"
+    ],
+    "id": "did:web:nickcarroll.com",
+    "verificationMethod": [
+        {
+            "id": "did:web:nickcarroll.com#key-1",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:web:nickcarroll.com",
+            "publicKeyMultibase": "z-R-MnXgzUkzRn5yQoia04-lRzcMyz6MTFin0-HoPljA"
+        }
+    ],
+    "authentication": [
+        "did:web:nickcarroll.com#key-1"
+    ]
+}
